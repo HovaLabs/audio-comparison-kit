@@ -54,7 +54,7 @@ export const InstrumentPanel = ({ name }) => {
 
   return (
     <Flex flexDirection="row">
-      <Box flex="0 2 200px">
+      <Box flex="0 1 200px">
         <Box>{name.replace(/_/g, ' ')}</Box>
         <ReactAudioPlayer
           src={`sampleFiles/${name}.mp3`}
@@ -62,9 +62,14 @@ export const InstrumentPanel = ({ name }) => {
         />
         <Box>{description}</Box>
       </Box>
-      <Box flex="1">
-        <AudioChart title={name} datasets={[{ color, data, label: name }]}/>
-      </Box>
+      <Flex flex="1" flexDirection="row" alignContent="flexEnd" width="100%">
+        <Box flex="1" width="300px">
+          <img alt={name} src={`./violinPhotos/${name}.jpeg`} style={{width: 'inherit'}}/>
+        </Box>
+        <Box flex="1" width="100%">
+          <AudioChart title={name} datasets={[{ color, data, label: name }]}/>
+        </Box>
+      </Flex>
     </Flex>
   );
 };

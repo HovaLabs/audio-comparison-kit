@@ -60,8 +60,8 @@ const generateScatterChartData = (datasets = []) => ({
 
 export const AudioChart = ({ title, datasets }) => (
   <Line
-    height={321}
     width={640}
+    height={300}
     redraw
     data={generateScatterChartData(datasets)}
     options={generateChartOptions(title)}
