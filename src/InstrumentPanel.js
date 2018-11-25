@@ -23,7 +23,7 @@ const violinMapping = {
     description: 'ooooooo',
   },
   Hovalin_Wood_Bridge: {
-    color: '#AAAAAA',
+    color: '#FF8000',
     description: 'ooooooo',
   },
   Hovalin_Wood_Bridge_Matte_Fiber: {
