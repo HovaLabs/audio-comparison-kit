@@ -64,7 +64,7 @@ export const InstrumentPanel = ({ name }) => {
       </Box>
       <Flex flex="1" flexDirection="row" alignContent="flexEnd" width="100%">
         <Box flex="1" width="300px">
-          <img alt={name} src={`./violinPhotos/${name}.jpeg`} style={{width: 'inherit'}}/>
+          <img alt={name} src={`./violinPhotos/${name}.jpg`} style={{width: 'inherit'}}/>
         </Box>
         <Box flex="1" width="100%">
           <AudioChart title={name} datasets={[{ color, data, label: name }]}/>
