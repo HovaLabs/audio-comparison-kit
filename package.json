@@ -4,10 +4,14 @@
   "private": true,
   "dependencies": {
     "chart.js": "^2.7.3",
+    "pcln-design-system": "^1.0.3",
     "react": "^16.6.3",
+    "react-audio-player": "^0.11.0",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "rebass": "^3.0.0-11",
+    "styled-components": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
