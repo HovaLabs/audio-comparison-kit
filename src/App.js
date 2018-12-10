@@ -32,12 +32,11 @@ export class App extends Component {
   render() {
     return (
       <Container>
-        <Header>Hova Labs</Header>
         <Content>
+          <Header>Hova Labs</Header>
           <Intro />
-          <Tuning />
           <Recording />
-          <Results />
+          <Tuning />
           <WhatWeLearned />
           <WhatsNext />
           <Footer>Hova Labs</Footer>
