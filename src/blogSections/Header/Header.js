@@ -25,8 +25,8 @@ export const Header = () => (
     <LeftSide>
       <Box px="28px">
         <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.5 8L10.6262 17.0404" stroke="#333333" stroke-width="2"/>
-          <line x1="10.0404" y1="0.707107" x2="1.70709" y2="9.04044" stroke="#333333" stroke-width="2"/>
+          <path d="M1.5 8L10.6262 17.0404" stroke="#333333" strokeWidth="2"/>
+          <line x1="10.0404" y1="0.707107" x2="1.70709" y2="9.04044" stroke="#333333" strokeWidth="2"/>
         </svg>
       </Box>
       <Box>Back to Hova Labs</Box>
