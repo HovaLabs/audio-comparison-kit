@@ -1,7 +1,9 @@
 import React from 'react';
 
-export const WhatWeLearned = () => (
-  <div id="what-we-learned">
+import { Container } from '../../design-system/components';
+
+export const WhatWeLearned = props => (
+  <Container id="what-we-learned" {...props}>
     <h2>What we learned</h2>
-  </div>
+  </Container>
 );

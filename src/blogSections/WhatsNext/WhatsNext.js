@@ -1,7 +1,9 @@
 import React from 'react';
 
-export const WhatsNext = () => (
-  <div id="whats-next">
+import { Container } from '../../design-system/components';
+
+export const WhatsNext = props => (
+  <Container id="whats-next" {...props}>
     <h2>What Next?</h2>
-  </div>
+  </Container>
 )

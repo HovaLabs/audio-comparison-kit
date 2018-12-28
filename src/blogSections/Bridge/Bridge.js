@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const Bridge = () => (
-  <div>Bridge</div>
+import { Container } from '../../design-system/components';
+
+export const Bridge = props => (
+  <Container id="bridge" {...props}>Bridge</Container>
 );

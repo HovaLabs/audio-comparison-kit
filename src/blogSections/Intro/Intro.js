@@ -1,9 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
-import { Box, Image, Flex } from 'rebass';
+import { Box, Image } from 'rebass';
 
-import { BeforeAfterContainer, Container, Header, HeaderContainer, HeaderSecondary, IntroText } from './IntroStyles';
+import { Container } from '../../design-system/components';
+import { BeforeAfterContainer, Header, HeaderContainer, HeaderSecondary, IntroText } from './IntroStyles';
 
 export const Intro = props => (
   <Container id="intro" {...props}>
@@ -28,7 +28,7 @@ export const Intro = props => (
         </Box>
       </BeforeAfterContainer>
       <IntroText>
-        In this blog post, we're going to go over what we've discovered when prototyping the Hovalin (Version 4), and we want to show you what's next.
+        In this blog post, we're going to go over what we've discovered when prototyping the Hovalin Version 4, and what's next.
       </IntroText>
       <ul>
         <li><a href="#original">The Original Hovalin v4</a></li>
@@ -38,7 +38,7 @@ export const Intro = props => (
         <li><a href="#thickness">What is the best wall thickness?</a></li>
         <li><a href="#orientation">Up/Down vs Sideways Orientation</a></li>
         <li><a href="#what-we-learned">What we learned</a></li>
-        <li><a href="whats-next">What's next</a></li>
+        <li><a href="#whats-next">What's next</a></li>
       </ul>
     </Box>
   </Container>

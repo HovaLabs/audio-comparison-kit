@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const Thickness = () => (
-  <div>Thickness</div>
+import { Container } from '../../design-system/components';
+
+export const Thickness = props => (
+  <Container id="thickness" {...props}>Thickness</Container>
 );

@@ -30,15 +30,15 @@ export class App extends Component {
       <ThemeProvider theme={theme}>
         <Content>
           <Header/>
-          <Intro  bg="#FFFFFF"/>
-          <Original bg="#F2F2F2"/>
-          <Measuring />
-          <Bridge />
-          <Material />
-          <Thickness />
-          <Orientation />
-          <WhatWeLearned />
-          <WhatsNext />
+          <Intro bg={theme.colors.bgPrimary} />
+          <Original bg={theme.colors.bgSecondary} />
+          <Measuring bg={theme.colors.bgPrimary} />
+          <Bridge bg={theme.colors.bgSecondary} />
+          <Material bg={theme.colors.bgPrimary} />
+          <Thickness bg={theme.colors.bgSecondary} />
+          <Orientation bg={theme.colors.bgPrimary} />
+          <WhatWeLearned bg={theme.colors.bgSecondary} />
+          <WhatsNext bg={theme.colors.bgPrimary} />
           <Footer>Hova Labs</Footer>
         </Content>
       </ThemeProvider>

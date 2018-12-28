@@ -15,7 +15,7 @@ import { AudioChart } from '../../AudioChart/AudioChart';
 import * as audioData from '../../audioData';
 
 export const Original = props => (
-  <Container {...props}>
+  <Container id="original" {...props}>
     <HeaderContainer>
       <MetaData>BASELINE</MetaData>
       <Header>The Original Hovalin</Header>
