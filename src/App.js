@@ -12,7 +12,7 @@ import { Bridge } from './blogSections/Bridge/Bridge';
 import { Material } from './blogSections/Material/Material';
 import { Thickness } from './blogSections/Thickness/Thickness';
 import { Orientation } from './blogSections/Orientation/Orientation';
-import { WhatWeLearned } from './blogSections/WhatWeLearned/WhatWeLearned';
+import { PuttingItAllTogether } from './blogSections/PuttingItAllTogether/PuttingItAllTogether';
 import { WhatsNext } from './blogSections/WhatsNext/WhatsNext';
 
 const Content = styled(Box)`
@@ -37,7 +37,7 @@ export class App extends Component {
           <Material bg={theme.colors.bgPrimary} />
           <Thickness bg={theme.colors.bgSecondary} />
           <Orientation bg={theme.colors.bgPrimary} />
-          <WhatWeLearned bg={theme.colors.bgSecondary} />
+          <PuttingItAllTogether bg={theme.colors.bgSecondary} />
           <WhatsNext bg={theme.colors.bgPrimary} />
           <Footer>Hova Labs</Footer>
         </Content>

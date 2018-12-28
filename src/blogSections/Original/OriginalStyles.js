@@ -19,12 +19,15 @@ export const Header = styled.h1`
   margin: 0;
   padding: 0;
   font-size: 70px;
+  font-weight: 500;
 `;
 
 export const MetaData = styled.h4`
   margin: 0;
   padding: 0;
   font-size: 22px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
 `;
 
 export const Text = styled.div`
@@ -32,7 +35,7 @@ export const Text = styled.div`
 `;
 
 export const Image = styled(RebassImage)`
-
+  padding-left: 15px;
 `;
 
 export const ChartContainer = styled(Box)`

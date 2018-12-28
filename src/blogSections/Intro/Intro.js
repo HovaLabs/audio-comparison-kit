@@ -37,7 +37,7 @@ export const Intro = props => (
         <li><a href="#material">PLA vs HTPLA</a></li>
         <li><a href="#thickness">What is the best wall thickness?</a></li>
         <li><a href="#orientation">Up/Down vs Sideways Orientation</a></li>
-        <li><a href="#what-we-learned">What we learned</a></li>
+        <li><a href="#putting-it-all-together">Putting it all together</a></li>
         <li><a href="#whats-next">What's next</a></li>
       </ul>
     </Box>
