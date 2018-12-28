@@ -1,4 +1,5 @@
 export const theme = {
+  breakpoints: ['480px', '768px', '1024px'],
   spacing: {
     xs: 5,
     s: 10,
@@ -7,7 +8,6 @@ export const theme = {
     xl: 60
   },
   fontSizes: {
-
   },
   colors: {
     primary: '#333333',

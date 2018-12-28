@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Box } from '../../design-system/components';
+import { Box } from '@rebass/grid';
 
 const HeaderContainer = styled(Box)`
   display: flex;

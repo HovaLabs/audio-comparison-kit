@@ -2,7 +2,7 @@ import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import { Image } from 'rebass';
 
-import { Box } from '../../design-system/components';
+import { Box } from '@rebass/grid';
 
 import * as audioData from '../../audioData';
 import { AudioChart } from '../Results/AudioChart';
@@ -15,7 +15,7 @@ export const Material = () => (
       We were also interested to see if it offered any acoustic benefit over standard PLA
       Here's how they compared:
     </div>
-    <Box height={300}>
+    <Box height={800}>
       <AudioChart
         title="PLA vs Matte Fiber HTPLA"
         datasets={[

@@ -1,17 +1,9 @@
 import React, { Fragment}  from 'react';
 import ReactDOM from 'react-dom';
-import { createGlobalStyle } from "styled-components"
-import { App } from './App';
-import * as serviceWorker from './serviceWorker';
 
-const GlobalStyle = createGlobalStyle`
-  html, body, body > div {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-`
+import { App } from './App';
+import { GlobalStyle } from './design-system/GlobalStyle';
+import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Fragment><App /><GlobalStyle/></Fragment>, document.getElementById('root'));
 

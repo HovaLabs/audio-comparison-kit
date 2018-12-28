@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import { Image } from 'rebass';
-
-import { Box } from '../../design-system/components';
+import { Box } from '@rebass/grid';
 
 import * as audioData from '../../audioData';
 import { AudioChart } from '../Results/AudioChart';
@@ -16,7 +15,7 @@ export const ChamberThickness = () => (
       We don't have any qualitative measurement, but we observed 2 perimeters plus "wiggle-fill" was stronger than using 4 perimeters.
       Beyond strength, we were intersted to explore how wall structure and wall thickness affects sound quality.
     </div>
-    <Box height={600}>
+    <Box height={800}>
       <AudioChart
         title="Wall Thickness"
         datasets={[

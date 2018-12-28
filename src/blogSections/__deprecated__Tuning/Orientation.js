@@ -2,7 +2,7 @@ import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import { Image } from 'rebass';
 
-import { Box } from '../../design-system/components';
+import { Box } from '@rebass/grid';
 
 import * as audioData from '../../audioData';
 import { AudioChart } from '../Results/AudioChart';
@@ -14,7 +14,7 @@ export const Orientation = () => (
       The initial Hovalin v4 chamber is printed vertically aligned.
       We wanted to see if the sound quality would be greatly affected by printing the chamber horizontally aligned.
     </div>
-    <Box height={600}>
+    <Box height={800}>
       <AudioChart
         title="Orientation"
         datasets={[
