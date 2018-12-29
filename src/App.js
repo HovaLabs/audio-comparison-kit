@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import { Box } from '@rebass/grid';
+import { Box } from 'rebass';
 
 import { theme } from './design-system/theme';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
-import { Box, Image } from '@rebass/grid';
+import { Box, Image } from 'rebass';
 import { instruments } from '../Results/instruments';
 import * as audioData from '../../audioData';
 import { AudioChart } from '../Results/AudioChart';

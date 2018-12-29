@@ -1,11 +1,15 @@
 export const theme = {
-  breakpoints: ['480px', '768px', '1024px'],
+  breakpoints: {
+    s: '480px',
+    m: '768px',
+    default: '1024px'
+  },
   spacing: {
-    xs: 5,
-    s: 10,
-    m: 15,
-    l: 30,
-    xl: 60
+    xs: 4,
+    s: 8,
+    m: 16,
+    l: 32,
+    xl: 64
   },
   fontSizes: {
   },

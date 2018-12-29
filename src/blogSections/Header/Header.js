@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Box } from '@rebass/grid';
+import { Box } from 'rebass';
 
 import { HeaderContainer, LeftSide, RightSide } from './HeaderStyles';
 

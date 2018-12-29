@@ -2,7 +2,7 @@ import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import { Image } from 'rebass';
 
-import { Box } from '@rebass/grid';
+import { Box } from 'rebass';
 
 import * as audioData from '../../audioData';
 import { AudioChart } from '../Results/AudioChart';
