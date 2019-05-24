@@ -1,3 +1,11 @@
+const uiLight = {
+  primary: '#27282D',
+  bgPrimary: '#FFFFFF',
+  bgSecondary: '#F2F2F2',
+  red: 'blue',
+  yellow: 'orange'
+}
+
 export const theme = {
   breakpoints: {
     s: '480px',
@@ -13,9 +21,5 @@ export const theme = {
   },
   fontSizes: {
   },
-  colors: {
-    primary: '#333333',
-    bgPrimary: '#FFFFFF',
-    bgSecondary: '#F2F2F2'
-  }
+  colors: uiLight
 }
